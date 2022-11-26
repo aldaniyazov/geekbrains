@@ -45,9 +45,9 @@
 
 Пример с Машой
 
-```
+```mermaid
 flowchart TD
-  1([Start]) --> 2[/"Ввод username"/]
+    1([Start]) --> 2[/"Ввод username"/]
 	2 --> 3{"username == Маша"}
 	3 --> |yes| 4("Вывод: Ура, это же МАША!")
 	3 --> |no| 5("Вывод: Привет, username")
