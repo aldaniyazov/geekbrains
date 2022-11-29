@@ -1,5 +1,14 @@
 ﻿int num = new Random().Next(100,1000);
 Console.WriteLine($"Ваше число: {num}");
-int d = num % 10;
-int n = num / 100;
-Console.WriteLine($"{n}{d}");
+Console.Write((num % 100) / 10);
+
+// void Search2(int arg) 
+// {   
+//     arg = new Random().Next(100, 1000);
+//     Console.WriteLine($"Number: {arg}");
+//     Console.WriteLine($"The second digit of this number: {arg.ToString()[1]}");
+// }
+
+// int a = 0;
+
+// Search2(a);
