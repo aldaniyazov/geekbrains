@@ -1,4 +1,4 @@
-﻿int num = new Random().Next(100,1000);
+﻿int num = new Random().Next(10,1000);
 Console.WriteLine($"Ваше число: {num}");
 
 if ((num % 3 == 0) && (num % 5 == 0))
